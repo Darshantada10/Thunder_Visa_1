@@ -27,8 +27,8 @@ class BusinessVisaResource extends Resource
     protected static ?string $model = BusinessVisa::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-briefcase';
-    protected static ?string $navigationGroup = 'Visit Visa';
-    protected static ?int $navigationSort = 11;
+    protected static ?string $navigationGroup = 'Business Visa';
+    protected static ?int $navigationSort = 14;
     public static function form(Form $form): Form
     {
         return $form

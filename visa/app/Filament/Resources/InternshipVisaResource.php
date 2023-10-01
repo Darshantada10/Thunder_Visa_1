@@ -27,8 +27,8 @@ class InternshipVisaResource extends Resource
     protected static ?string $model = InternshipVisa::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-briefcase';
-    protected static ?string $navigationGroup = 'Visit Visa';
-    protected static ?int $navigationSort = 11;
+    protected static ?string $navigationGroup = 'Internship Visa';
+    protected static ?int $navigationSort = 21;
     public static function form(Form $form): Form
     {
         return $form

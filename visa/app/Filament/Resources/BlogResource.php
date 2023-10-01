@@ -28,7 +28,7 @@ class BlogResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-pencil';
     protected static ?string $navigationGroup = 'Blog';
-    protected static ?int $navigationSort = 50;
+    protected static ?int $navigationSort = 22;
     public static function form(Form $form): Form
     {
         return $form

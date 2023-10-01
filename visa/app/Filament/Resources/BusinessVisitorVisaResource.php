@@ -28,7 +28,7 @@ class BusinessVisitorVisaResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-briefcase';
     protected static ?string $navigationGroup = 'Visit Visa';
-    protected static ?int $navigationSort = 11;
+    protected static ?int $navigationSort = 13;
     public static function form(Form $form): Form
     {
         return $form

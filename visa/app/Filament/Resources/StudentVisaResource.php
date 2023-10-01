@@ -27,8 +27,8 @@ class StudentVisaResource extends Resource
     protected static ?string $model = StudentVisa::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-briefcase';
-    protected static ?string $navigationGroup = 'Visit Visa';
-    protected static ?int $navigationSort = 11;
+    protected static ?string $navigationGroup = 'Student Visa';
+    protected static ?int $navigationSort = 20;
     public static function form(Form $form): Form
     {
         return $form
