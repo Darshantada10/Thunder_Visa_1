@@ -22,8 +22,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //Home Routes
 Route::get('/ahpd',[HomeController::class,'GetActiveData']);
 
-// //Navbar Routes
-// Route::get('/navbar',[HomeController::class,'getActiveNavbar']);
+//Navbar Routes
+Route::get('/navbar',[HomeController::class,'getActiveNavbar']);
 
 // //Slider Routes
 // Route::get('/slider',[HomeController::class,'getActiveSlider']);
